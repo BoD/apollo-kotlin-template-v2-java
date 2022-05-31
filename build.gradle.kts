@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "1.6.21"
-    id("com.apollographql.apollo3") version "3.3.0"
+    java
+    id("com.apollographql.apollo") version "2.5.11"
     application
 }
 
@@ -17,7 +17,7 @@ allprojects {
 
 
 dependencies {
-    implementation("com.apollographql.apollo3", "apollo-runtime", "3.3.0")
+    implementation("com.apollographql.apollo", "apollo-runtime", "2.5.11")
 }
 
 apollo {
