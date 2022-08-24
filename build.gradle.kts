@@ -25,7 +25,7 @@ apollo {
 }
 
 application {
-    mainClass.set("com.example.MainKt")
+    mainClass.set("com.example.Main")
 }
 
 // `./gradlew downloadApolloSchema --endpoint='https://apollo-fullstack-tutorial.herokuapp.com/graphql' --schema=`pwd`/src/main/graphql/schema.graphqls` to download the schema

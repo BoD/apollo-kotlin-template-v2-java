@@ -12,3 +12,17 @@ query LaunchList {
         }
     }
 }
+
+mutation BookTrip($id:[ID]!) {
+    bookTrips(launchIds: $id) {
+        success
+        message
+        launches {
+            id
+        }
+    }
+}
+
+subscription TripsBooked {
+    tripsBooked
+}
